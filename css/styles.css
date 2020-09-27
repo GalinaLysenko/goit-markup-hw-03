@@ -183,9 +183,10 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
+  width: 1200px;
   margin-bottom: 80px;
-  margin-left: 452px;
-  margin-right: 452px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .button {
