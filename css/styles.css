@@ -16,7 +16,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  width: 1600px;
+  /* width: 1600px; */
 }
 
 .list {
@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-  width: 1600px;
+  /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
@@ -106,7 +106,7 @@ body {
 }
 
 .container-header {
-  width: 1600px;
+  /* width: 1600px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,6 +115,8 @@ body {
 
 .content {
   width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,7 +223,7 @@ body {
 
 /* ======== ACHIVE =========*/
 .container-achive {
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -276,7 +278,7 @@ body {
 /*======== FUNCTION ==========*/
 
 .container-functional {
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   /* height: 386px; */
@@ -308,9 +310,9 @@ body {
 .team-list {
   display: flex;
   justify-content: center;
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -365,7 +367,9 @@ body {
 }
 
 .container-footer {
-  width: 1200px;
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -420,8 +424,8 @@ body {
 
 .main-container {
   width: 1200px;
-  padding-right: 7.5px;
-  padding-left: 7.5px;
+  padding-right: 6px;
+  padding-left: 6px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -496,6 +500,7 @@ body {
 .list-project {
   display: flex;
   flex-wrap: wrap;
+  /* width: calc((100%-60px) / 3); */
 }
 
 .project-item:not(:nth-child(3n)) {
