@@ -173,6 +173,8 @@ body {
   margin-top: 23px;
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-right: 452px;
+  padding-left: 452px;
 }
 
 .title-hero {
@@ -183,10 +185,10 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
-  width: 1200px;
   margin-bottom: 80px;
-  padding-left: 250px;
-  padding-right: 250px;
+  width: 696px;
+  /* padding-left: 250px;
+  padding-right: 250px; */
 }
 
 .button {
