@@ -114,7 +114,7 @@ body {
 }
 
 .content {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
@@ -223,7 +223,7 @@ body {
 
 /* ======== ACHIVE =========*/
 .container-achive {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -278,7 +278,7 @@ body {
 /*======== FUNCTION ==========*/
 
 .container-functional {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   /* height: 386px; */
@@ -312,7 +312,7 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -367,7 +367,7 @@ body {
 }
 
 .container-footer {
-  width: 1170px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
@@ -424,8 +424,8 @@ body {
 
 .main-container {
   width: 1200px;
-  padding-right: 6px;
-  padding-left: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -503,23 +503,27 @@ body {
   /* width: calc((100%-60px) / 3); */
 }
 
+.project {
+  display: block;
+}
 .project-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
 .project-item:not(:nth-child(-n + 3)) {
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.project-item {
+/* .project-item {
   border: 1px solid #eeeeee;
-}
+} */
 
 .project-text {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid #eeeeee;
 }
 
 .item .project-title {
