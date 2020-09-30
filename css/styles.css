@@ -42,7 +42,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .visually-hidden {
@@ -108,20 +108,10 @@ body {
 }
 
 .container-header {
-  /* width: 1600px; */
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
-  display: inline-block;
-  /* margin-right: auto;
-  margin-left: auto; */
   border-bottom: 1px solid #ececec;
 }
 
 .content {
-  /* width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,22 +160,16 @@ body {
 
 /* ======== HERO =========*/
 
-.background-hero {
-  display: block;
-  width: auto;
+.container-hero {
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.container-hero {
-  right: 50%;
+.container-hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2f303a;
-  /* width: 100%; */
-  padding-top: 200px;
-  padding-bottom: 200px;
-  /* padding-right: 452px;
-  padding-left: 452px; */
 }
 
 .title-hero {
@@ -234,11 +218,6 @@ body {
 
 /* ======== ACHIVE =========*/
 .container-achive {
-  /* width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   padding-top: 75px;
   padding-bottom: 73px;
 }
@@ -289,12 +268,6 @@ body {
 /*======== FUNCTION ==========*/
 
 .container-functional {
-  /* width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px; */
-  /* height: 386px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   padding-bottom: 94px;
 }
 
@@ -302,12 +275,12 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
-/*.list-function .item:not(:last-child) {
-  margin-right: 30px;
-}*/
+.item-function {
+  display: block;
+}
 
 /*======== END FUNCTION ==========*/
 
@@ -321,20 +294,15 @@ body {
 .team-list {
   display: flex;
   justify-content: center;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px; */
+  margin-top: 50px;
 }
-
-/* team-item:not(:last-child) {
-  margin-right: 30px;
-} */
 
 .container-team .title {
   display: block;
-  padding-bottom: 50px;
+}
+
+.team-img {
+  display: block;
 }
 
 .team-item {
@@ -344,6 +312,11 @@ body {
 
 .team-item-last {
   background-color: #ffffff;
+}
+
+.team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -356,7 +329,6 @@ body {
 
 .team-name {
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 .team-position {
   font-weight: 400;
@@ -365,7 +337,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-colour);
-  padding-bottom: 30px;
 }
 
 /*======== END TEAM ==========*/
@@ -375,14 +346,6 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.container-footer {
-  /* width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto; */
 }
 
 .footer-place {
@@ -416,11 +379,11 @@ body {
 }
 
 .footer-place {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .item-footer:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address-footer {
@@ -434,11 +397,6 @@ body {
 /*======== FILTER =========*/
 
 .main-container {
-  /* width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto; */
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -486,8 +444,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-item {
@@ -498,7 +455,7 @@ body {
 }
 
 .filter-button:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 /*======== END FILTER =========*/
@@ -511,7 +468,6 @@ body {
 .list-project {
   display: flex;
   flex-wrap: wrap;
-  /* width: calc((100%-60px) / 3); */
 }
 
 .project {
@@ -521,13 +477,9 @@ body {
   margin-right: 30px;
 }
 
-.project-item:not(:nth-child(-n + 3)) {
+.project-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
-
-/* .project-item {
-  border: 1px solid #eeeeee;
-} */
 
 .project-text {
   padding-left: 24px;
@@ -553,7 +505,5 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-colour);
   margin-top: 4px;
-  /* margin-left: 24px;
-  margin-bottom: 20px; */
 }
 /*======== END PROJECT =========*/
