@@ -37,7 +37,9 @@ body {
 }
 
 .container {
-  /* width: 1600px; */
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
@@ -107,16 +109,19 @@ body {
 
 .container-header {
   /* width: 1600px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  display: inline-block;
+  /* margin-right: auto;
+  margin-left: auto; */
   border-bottom: 1px solid #ececec;
 }
 
 .content {
-  width: 1200px;
+  /* width: 1200px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,8 +150,8 @@ body {
 }
 
 .address-container {
-  display: flex;
-  margin-left: auto;
+  /* display: flex; */
+  margin-left: 331px;
 }
 .address-list {
   display: flex;
@@ -165,16 +170,22 @@ body {
 
 /* ======== HERO =========*/
 
+.background-hero {
+  display: block;
+  width: auto;
+}
+
 .container-hero {
+  right: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #2f303a;
-  margin-top: 23px;
+  /* width: 100%; */
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-right: 452px;
-  padding-left: 452px;
+  /* padding-right: 452px;
+  padding-left: 452px; */
 }
 
 .title-hero {
@@ -223,11 +234,11 @@ body {
 
 /* ======== ACHIVE =========*/
 .container-achive {
-  width: 1200px;
+  /* width: 1200px;
   padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-right: 15px; */
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-top: 75px;
   padding-bottom: 73px;
 }
@@ -278,12 +289,12 @@ body {
 /*======== FUNCTION ==========*/
 
 .container-functional {
-  width: 1200px;
+  /* width: 1200px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; */
   /* height: 386px; */
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-bottom: 94px;
 }
 
@@ -310,11 +321,11 @@ body {
 .team-list {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 1200px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px; */
 }
 
 /* team-item:not(:last-child) {
@@ -367,11 +378,11 @@ body {
 }
 
 .container-footer {
-  width: 1200px;
+  /* width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 
 .footer-place {
@@ -423,11 +434,11 @@ body {
 /*======== FILTER =========*/
 
 .main-container {
-  width: 1200px;
+  /* width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   padding-top: 94px;
   padding-bottom: 94px;
 }
